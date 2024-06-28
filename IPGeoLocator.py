@@ -4,7 +4,6 @@ import urllib.request
 def locate(ip):
     with urllib.request.urlopen(f"https://ipinfo.io/{ip}/json") as url:
         data = json.load(url)
-        print(data)
         if "ip" in data:
             print("IP Address:",data["ip"])    
         if "city" in data:

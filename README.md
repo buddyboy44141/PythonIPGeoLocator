@@ -1,2 +1,2 @@
 # PythonIPGeoLocator
-A Simple Python program that gives you various information about an IP Address. Such as City, Country, Time Zone, Zip Code, and more 
+A Very Very Simple Python IP Geolocator. No requirements, just regular Python. Made with Python 3.12
